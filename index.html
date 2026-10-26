@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Results Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>🎓 STUDENT RESULTS PORTAL</h1>
+            <p>Student Registration and Result Portal</p>
+        </header>
+
+        <form>
+
+            <h2>Student Information</h2>
+
+            <!-- First Name -->
+            <div>
+                <label>First Name <span>*</span></label>
+                <input type="text"
+                       placeholder="Enter first name"
+                       required>
+            </div>
+
+            <!-- Middle Name -->
+            <div>
+                <label>Middle Name</label>
+                <input type="text"
+                       placeholder="Enter middle name">
+            </div>
+
+            <!-- Last Name -->
+            <div>
+                <label>Last Name <span>*</span></label>
+                <input type="text"
+                       placeholder="Enter last name"
+                       required>
+            </div>
+
+            <!-- Registration Number -->
+            <div>
+                <label>Registration Number <span>*</span></label>
+                <input type="text"
+                       placeholder="Enter registration number"
+                       required>
+            </div>
+
+            <!-- Email -->
+            <div>
+                <label>Email Address <span>*</span></label>
+                <input type="email"
+                       placeholder="example@gmail.com"
+                       required>
+            </div>
+
+            <!-- Phone -->
+            <div>
+                <label>Phone Number <span>*</span></label>
+                <input type="tel"
+                       placeholder="Enter phone number"
+                       required>
+            </div>
+
+            <!-- Address -->
+            <div>
+                <label>Address <span>*</span></label>
+                <textarea
+                    placeholder="Enter your address"
+                    required></textarea>
+            </div>
+
+            <!-- Level -->
+            <div>
+                <label>Level <span>*</span></label>
+                <select required>
+                    <option value="">Select Level</option>
+                    <option>100 Level</option>
+                    <option>200 Level</option>
+                    <option>300 Level</option>
+                    <option>400 Level</option>
+                </select>
+            </div>
+
+            <!-- Course -->
+            <div>
+                <label>Course <span>*</span></label>
+                <input type="text"
+                       placeholder="Enter course"
+                       required>
+            </div>
+
+            <!-- Department -->
+            <div>
+                <label>Department <span>*</span></label>
+                <select required>
+                    <option value="">Select Department</option>
+                    <option>Computer Science</option>
+                    <option>Information Technology</option>
+                    <option>Software Engineering</option>
+                </select>
+            </div>
+
+            <!-- Submit -->
+            <button type="submit">
+                SUBMIT INFORMATION
+            </button>
+
+        </form>
+
+
+        <!-- RESULTS TABLE -->
+
+        <h2 class="result-title">📋 Student Results</h2>
+
+        <table>
+
+            <tr>
+                <th>S/N</th>
+                <th>Student Name</th>
+                <th>Reg. Number</th>
+                <th>Course</th>
+                <th>Level</th>
+                <th>Score</th>
+                <th>Grade</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>John Peter</td>
+                <td>CSC/2025/001</td>
+                <td>Programming</td>
+                <td>200</td>
+                <td>85</td>
+                <td>A</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Mary James</td>
+                <td>CSC/2025/002</td>
+                <td>Database</td>
+                <td>200</td>
+                <td>72</td>
+                <td>B</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</body>
+</html>
